@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Random Generator</title>
+</head>
+<body>
+    <h1>so</h1>
+    <p>ty</p>
+    <p id="target">c</p>
+    <button>Click me!</button>
+    <script>
+        const t = ["s", "a", "m", "a", "r"] 
+        const target = document.querySelector("#target")
+        const button = document.querySelector("button")
+        button.addEventListener("click", () => {
+            const randomNumber = Math.floor(Math.random() * (t.length - 0) + 0)
+            target.textContent = t[randomNumber]
+        })
+    </script>
+</body>
+</html>
