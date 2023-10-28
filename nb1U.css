@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;}
+body {
+    background:rgb(5, 5, 54) url("backgroundU.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color: silver;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 45px;
+ }
+h2 {
+    color:silver;
+    font-style: oblique;
+    font-size: 30px;    
+}
+h3{
+    color: darkgoldenrod;
+    font-size: 10px;
+}
+p{
+    color:white;
+    font-style: oblique;
+    font-size: 55px;
+}
+button{
+    color: darkgoldenrod;
+    font-style: oblique;
+    font-size: 30px;
+    background: transparent;
+    border-style: solid;
+    border-radius: 100px;
+    border: 0px;
+    margin: 0 auto;
+    display: block; 
+    transition: border 0.3s;
+}
+button:hover{
+    border: 2px solid darkgoldenrod;
+        }
