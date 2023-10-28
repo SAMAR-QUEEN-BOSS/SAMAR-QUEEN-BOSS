@@ -1,7 +1,45 @@
-const t = ["s", "a", "m", "a", "r"] 
-        const target = document.querySelector("#target")
-        const button = document.querySelector("button")
-        button.addEventListener("click", () => {
-            const randomNumber = Math.floor(Math.random() * (t.length - 0) + 0)
-            target.textContent = t[randomNumber]
-        })
+const t = [
+    "focus on YOURSELF. don't get lost in other people.",
+    "belive in yourself even when no one else does.",
+    "NOBODY CARES, WORK HARDER.",
+    "always dress like it's the best day of your life.",
+    "great things never come from comfort zones.",
+    "Be careful who you trust. Salt and Sugar look the SAME.",
+    "F-E-A-R has two meaning: FORGET EVERYTHING AND RUN or FACE EVERYTHING AND RISE. is your choice.",
+    "you don't want to look back and know you could've done better.",
+    "Keep your eyes on the PRIZE.",
+    "You get what you WORK for not what you WISH for.",
+    "Do what scares you. UNTIL IT DOESN'T.",
+    "If the plan dosen't work, change the plan, But never THE GOAL.",
+    "DO WHAT IS RIGHT NOT WHAT IS EASY",
+    "NOTHING KILLS YOU LIKE YOUR MIND",
+    "In the end, we only regret the CHANCES E DIDIN'T TAKE.",
+    "MAKE YOURSELF PROUD.",
+    "Focus on the progressand result will com",
+    "become the hardest working person you know.",
+    "rememBEr WHO YOU WANTed TO BE.",
+    "Make it happen and shock everyone.",
+    "People who avoid failure also avoid succes.",
+    "TAKE THE RISK or lose the chance",
+    "Some talk to you in their free time, and some free their time to talk to you.",
+    "You can do it if you want it bad enough.",
+    "Stay positive, work hard, and make it happen",
+    "If they don't know you personally, dont take it parsonal.",
+    "The struggle you feel is actually called progress.",
+    "Do more of what makes you happy",
+    "Do it with passion or not at all.",
+    "When trust is broken sorry means nothing.",
+    "Stop overthinking. you can't control everything, just let it be.",
+    "Some people what to see you fail. DISAPPOINT THEM.",
+    "Why fall in love when you can fall asleep?",
+    "Success is 1%LUCK, 1%TALENT, 98%NEVER GIVING UP",
+    "There will be many chapters in your life. don't get lost in the one you're in now.",
+    "Change is hard at first, messy in the middle and gorgeous at the end.",
+    "THERE IS NO CHANGE WHERE THERE IS NO ACTION",
+]
+const target = document.querySelector("#target")
+const button = document.querySelector("button")
+button.addEventListener("click", () => {
+    const randomNumber = Math.floor(Math.random() * (t.length - 0) + 0)
+    target.textContent = t[randomNumber]
+})
