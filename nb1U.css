@@ -5,7 +5,7 @@
     align-items: center;
     height: 100%;}
 body {
-    background:rgb(5, 5, 54) url("backgroundU.jpeg") no-repeat center;
+    background:rgb(5, 5, 54) url("backgroundU.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
 }
