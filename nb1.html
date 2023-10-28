@@ -3,36 +3,37 @@
 <head>
     <title>Random Generator</title>
     <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;}
         body {
             background:rgb(5, 5, 54) url("background.jpeg") no-repeat center;
             background-size: cover;
-            padding: 10%;
-            margin: 5%;
             height: 100vh;
+
         }
         h1{
             color: silver;
             font-style: oblique;
             font-weight: bold;
             font-size: 45px;
-            text-align: center;
          }
         h2 {
             color:silver;
             font-style: oblique;
-            font-size: 30px;
-            text-align: center;
+            font-size: 30px;    
         }
         h3{
             color: darkgoldenrod;
             font-size: 10px;
-            direction: rtl;
         }
         p{
             color:white;
             font-style: oblique;
             font-size: 70px;
-            text-align: center;
         }
         button{
             color: darkgoldenrod;
@@ -52,12 +53,13 @@
     </style>
 </head>
 <body>
-    <h1>let's make your day</h1>
-    <h2>It's</h2>
-   
-    <p id="target">the text</p>
-    <button>Click here to change</button>
-    <h3>BY SAMAR</h3>
+    <div class="container">
+        <h1>let's make your day</h1>
+        <h2>It's</h2>
+        <p id="target">the text</p>
+        <button>Click here to change</button>
+        <h3>BY SAMAR</h3>
+    </div>
     <script>
         const t = ["s", "a", "m", "a", "r"] 
         const target = document.querySelector("#target")
