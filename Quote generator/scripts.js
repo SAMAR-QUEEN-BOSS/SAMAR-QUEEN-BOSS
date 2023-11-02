@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Random Generator</title>
-   <style>
-    .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;}
-body {
-    background:rgb(5, 5, 54) url("background.jpeg") no-repeat center;
-    background-size: cover;
-    height: 100vh;
-}
-h1{
-    color: silver;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 45px;
- }
-h2 {
-    color:silver;
-    font-style: oblique;
-    font-size: 30px;    
-}
-h3{
-    color: darkgoldenrod;
-    font-size: 10px;
-}
-p{
-    color:white;
-    font-style: oblique;
-    font-size: 55px;
-}
-button{
-    color: darkgoldenrod;
-    font-style: oblique;
-    font-size: 30px;
-    background: transparent;
-    border-style: solid;
-    border-radius: 100px;
-    border: 0px;
-    margin: 0 auto;
-    display: block; 
-    transition: border 0.3s;
-}
-button:hover{
-    border: 2px solid darkgoldenrod;
-        }
-</style>
-</head>
-<body>
-    <div class="container">
-        <h1>let's make your day</h1>
-        <h2>WHEN THINGS CHENGE INSIDE YOU <br><center>THINGS CHANGE AROUND YOU</center></h2>
-        <p id="target">BE LOYAL TO YOUR FUTURE,<br> NOT YOUR PAST</p>
-        <button>Click here to change</button>
-        <h3>BY SAMAR</h3>
-    </div>
-    <script>
-        const t = [
+const t = [
     "focus on YOURSELF. don't get lost in other people.",
     "belive in yourself even when no one else does.",
     "NOBODY CARES, WORK HARDER.",
@@ -75,7 +13,7 @@ button:hover{
     "If the plan dosen't work, change the plan, But never THE GOAL.",
     "DO WHAT IS RIGHT NOT WHAT IS EASY",
     "NOTHING KILLS YOU LIKE YOUR MIND",
-    "In the end, we only regret the CHANCES E DIDIN'T TAKE.",
+    "In the end, we only regret the CHANCES WE DIDIN'T TAKE.",
     "MAKE YOURSELF PROUD.",
     "Focus on the progressand result will com",
     "become the hardest working person you know.",
@@ -105,7 +43,3 @@ button.addEventListener("click", () => {
     const randomNumber = Math.floor(Math.random() * (t.length - 0) + 0)
     target.textContent = t[randomNumber]
 })
-
-    </script>
-</body>
-</html>-
