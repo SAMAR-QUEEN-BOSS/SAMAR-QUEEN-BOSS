@@ -1,0 +1,34 @@
+body {
+    background:black;
+    background-size: cover;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+button{
+    padding: 10px 15px;
+}
+#inc {
+    background-color: blue;
+    color: white;
+}
+#dec {
+    background-color: red;
+    color: white;
+}
+#r {
+    background-color: gray;
+    color: white;
+}
+.positive {
+    color: blue;
+}
+
+.negative {
+    color: red;
+}
