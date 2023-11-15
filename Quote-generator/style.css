@@ -5,7 +5,7 @@
     height: 100%;
 }
 body {
-    background:black url("./background.jpeg") no-repeat center;
+    background:black;
     background-size: cover;
     height: 100vh;
 }
