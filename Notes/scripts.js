@@ -1,9 +1,31 @@
 const content = document.querySelector("#content");
-const div = document.createElement("div");
-const h1 = document.createElement("h1");
-const p = document.createElement("p");
-div.appendChild(h1);
-div.appendChild(p);
-content.appendChild(div);
-h1.textContent ="WoW";
-p.textContent ="yeh";
+notes = [
+    { title: "wow", description: "description"},
+    { title: "wow 1", description: "description 1"},
+    { title: "wow 2", description: "description 2"},
+];
+notes.forEach((note)=> {
+    const noteModel = document.createElement("ul");
+    const title = document.createElement("li");
+    const titleText = document.createElement("b");
+    const description = document.createElement("li");
+
+    content.appendChild(noteModel);
+    noteModel.appendChild(title);
+    noteModel.appendChild(description);
+    title.appendChild(titleText);
+
+    titleText.textContent =note.title;
+    description.textContent =note.description;
+});
+
+
+
+
+
+
+
+
+
+
+
