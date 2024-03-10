@@ -1,0 +1,16 @@
+body {
+    background-color: darkgray;
+    color: black;
+}
+h3 {
+    color: rgb(68, 51, 3);
+}
+table {
+    border: black solid ; 
+    border-collapse: collapse;
+}
+td {
+    border: black solid;
+    padding: 20px;
+
+}

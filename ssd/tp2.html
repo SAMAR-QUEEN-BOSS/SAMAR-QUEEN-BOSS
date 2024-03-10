@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 2</title>
+</head>
+<body>
+    <p id="demo">
+        hi
+    </p>
+    <p id="deme">
+        hi
+    </p>
+    <script>
+        const liste=document.getElementById("demo")
+        liste.innerHTML=("hello")
+        const liste2=document.getElementById("deme")
+        liste2.innerHTML=("<ol id='asma'><li>introduction</li><li>conclution</li></ol>")
+        const liste3=document.getElementById("asma")
+        liste3.style.color='rgb(87, 145, 203)'
+        liste3.style.fontSize='50px'
+        const New=document.createElement('li');
+        New.textContent="test";
+        liste3.appendChild(New);
+    </script>
+</body>
+</html>
